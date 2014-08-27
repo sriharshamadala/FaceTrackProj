@@ -1,0 +1,515 @@
+﻿生成启动时间为 2014/7/27 17:19:11。
+     1>项目“H:\研究生\rec thresh jm18.6\JM\lencod_vc10.vcxproj”在节点 3 上(rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“.\lencod/Debug_Win32_vc10\lencod.lastbuildstate”。
+       InitializeBuildStatus:
+         正在创建“.\lencod/Debug_Win32_vc10\lencod.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Ilencod/inc /Ilcommon/inc /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _CRT_SECURE_NO_DEPRECATE /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /openmp- /Fo".\lencod/Debug_Win32_vc9/" /Fd".\lencod/Debug_Win32_vc9/vc100.pdb" /FR".\lencod/Debug_Win32_vc10\\" /Gd /TC /analyze- /errorReport:prompt lcommon\src\blk_prediction.c lcommon\src\config_common.c lcommon\src\img_io.c lcommon\src\img_process.c lcommon\src\input.c lcommon\src\io_raw.c lcommon\src\io_tiff.c lcommon\src\mbuffer_common.c lcommon\src\memalloc.c lcommon\src\mv_prediction.c lcommon\src\nalucommon.c lcommon\src\parsetcommon.c lcommon\src\resize.c lcommon\src\transform.c lcommon\src\win32.c lencod\src\annexb.c lencod\src\biariencode.c lencod\src\block.c lencod\src\cabac.c lencod\src\cconv_yuv2rgb.c lencod\src\configfile.c lencod\src\conformance.c lencod\src\context_ini.c lencod\src\errdo.c lencod\src\errdo_dist_mhyp.c lencod\src\explicit_gop.c lencod\src\explicit_seq.c lencod\src\filehandle.c lencod\src\fmo.c lencod\src\get_block_otf.c lencod\src\header.c lencod\src\hme_distortion.c lencod\src\hme_luma.c lencod\src\image.c lencod\src\image_mp.c lencod\src\img_chroma.c lencod\src\img_distortion.c lencod\src\img_dist_ms_ssim.c lencod\src\img_dist_snr.c lencod\src\img_dist_ssim.c lencod\src\img_luma.c lencod\src\intra16x16.c lencod\src\intra4x4.c lencod\src\intra8x8.c lencod\src\intrarefresh.c lencod\src\intra_chroma.c lencod\src\lambda.c lencod\src\leaky_bucket.c lencod\src\lencod.c lencod\src\list_reorder.c lencod\src\lln_mc_prediction.c lencod\src\loopFilter.c lencod\src\loop_filter_mbaff.c lencod\src\loop_filter_normal.c lencod\src\macroblock.c lencod\src\macroblock_P444.c lencod\src\mbuffer.c lencod\src\mb_access.c lencod\src\mc_prediction.c lencod\src\mc_prediction_otf.c lencod\src\md_common.c lencod\src\md_distortion.c lencod\src\md_high.c lencod\src\md_highfast.c lencod\src\md_highloss.c lencod\src\md_high_updated.c lencod\src\md_low.c lencod\src\me_distortion.c lencod\src\me_distortion_otf.c lencod\src\me_epzs.c lencod\src\me_epzs_common.c lencod\src\me_epzs_int.c lencod\src\me_epzs_sub.c lencod\src\me_fullfast.c lencod\src\me_fullfast_otf.c lencod\src\me_fullsearch.c lencod\src\me_hme.c lencod\src\me_umhex.c lencod\src\me_umhexsmp.c lencod\src\mmco.c lencod\src\mode_decision.c lencod\src\mode_decision_P8x8.c lencod\src\mv_direct.c lencod\src\mv_search.c lencod\src\nal.c lencod\src\nalu.c lencod\src\output.c lencod\src\parset.c lencod\src\pred_struct.c lencod\src\quant4x4.c lencod\src\quant4x4_2step.c lencod\src\quant4x4_around.c lencod\src\quant4x4_normal.c lencod\src\quant4x4_trellis.c lencod\src\quant8x8.c lencod\src\quant8x8_around.c lencod\src\quant8x8_normal.c lencod\src\quant8x8_trellis.c lencod\src\quantChroma.c lencod\src\quantChroma_2step.c lencod\src\quantChroma_around.c lencod\src\quantChroma_normal.c lencod\src\quantChroma_trellis.c lencod\src\q_around.c lencod\src\q_matrix.c lencod\src\q_offsets.c lencod\src\ratectl.c lencod\src\rc_quadratic.c lencod\src\rdopt.c lencod\src\rdopt_coding_state.c lencod\src\rdoq.c lencod\src\rdoq_cabac.c lencod\src\rdoq_cavlc.c lencod\src\rdpicdecision.c lencod\src\rd_intra_jm.c lencod\src\rd_intra_jm444.c lencod\src\rd_intra_jm_low.c lencod\src\report.c lencod\src\rtp.c lencod\src\sei.c lencod\src\slice.c lencod\src\symbol.c lencod\src\transform8x8.c lencod\src\transform8x8_H444.c lencod\src\vlc.c lencod\src\weighted_prediction.c lencod\src\wp_lms.c lencod\src\wp_mciter.c lencod\src\wp_mcprec.c lencod\src\wp_periodic.c lencod\src\wp_random.c
+         blk_prediction.c
+     1>h:\研究生\rec thresh jm18.6\jm\lencod\inc\contributors.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         config_common.c
+         img_io.c
+     1>h:\研究生\rec thresh jm18.6\jm\lencod\inc\contributors.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>h:\研究生\rec thresh jm18.6\jm\lencod\inc\contributors.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         img_process.c
+     1>h:\研究生\rec thresh jm18.6\jm\lencod\inc\contributors.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         input.c
+     1>h:\研究生\rec thresh jm18.6\jm\lencod\inc\contributors.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         io_raw.c
+     1>h:\研究生\rec thresh jm18.6\jm\lencod\inc\contributors.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         io_tiff.c
+     1>h:\研究生\rec thresh jm18.6\jm\lencod\inc\contributors.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>h:\研究生\rec thresh jm18.6\jm\lencod\inc\contributors.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         mbuffer_common.c
+         memalloc.c
+         mv_prediction.c
+         nalucommon.c
+         parsetcommon.c
+         resize.c
+         transform.c
+         win32.c
+         annexb.c
+         biariencode.c
+         block.c
+     1>h:\研究生\rec thresh jm18.6\jm\lencod\inc\contributors.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         cabac.c
+         cconv_yuv2rgb.c
+     1>h:\研究生\rec thresh jm18.6\jm\lencod\inc\contributors.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         正在生成代码...
+         正在编译...
+         configfile.c
+         conformance.c
+         context_ini.c
+         errdo.c
+         errdo_dist_mhyp.c
+         explicit_gop.c
+     1>h:\研究生\rec thresh jm18.6\jm\lencod\inc\contributors.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>h:\研究生\rec thresh jm18.6\jm\lencod\inc\contributors.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         explicit_seq.c
+     1>h:\研究生\rec thresh jm18.6\jm\lencod\inc\contributors.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>h:\研究生\rec thresh jm18.6\jm\lencod\inc\contributors.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         filehandle.c
+     1>h:\研究生\rec thresh jm18.6\jm\lencod\inc\contributors.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         fmo.c
+         get_block_otf.c
+         header.c
+         hme_distortion.c
+     1>h:\研究生\rec thresh jm18.6\jm\lencod\inc\contributors.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         hme_luma.c
+     1>h:\研究生\rec thresh jm18.6\jm\lencod\inc\contributors.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         image.c
+     1>h:\研究生\rec thresh jm18.6\jm\lencod\inc\contributors.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>h:\研究生\rec thresh jm18.6\jm\lencod\inc\contributors.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         image_mp.c
+     1>h:\研究生\rec thresh jm18.6\jm\lencod\inc\contributors.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         img_chroma.c
+     1>h:\研究生\rec thresh jm18.6\jm\lencod\inc\contributors.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         img_distortion.c
+         img_dist_ms_ssim.c
+     1>h:\研究生\rec thresh jm18.6\jm\lencod\inc\contributors.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         img_dist_snr.c
+     1>h:\研究生\rec thresh jm18.6\jm\lencod\inc\contributors.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         img_dist_ssim.c
+     1>h:\研究生\rec thresh jm18.6\jm\lencod\inc\contributors.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         正在生成代码...
+         正在编译...
+         img_luma.c
+     1>h:\研究生\rec thresh jm18.6\jm\lencod\inc\contributors.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         intra16x16.c
+     1>h:\研究生\rec thresh jm18.6\jm\lencod\inc\contributors.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         intra4x4.c
+     1>h:\研究生\rec thresh jm18.6\jm\lencod\inc\contributors.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         intra8x8.c
+         intrarefresh.c
+         intra_chroma.c
+     1>h:\研究生\rec thresh jm18.6\jm\lencod\inc\contributors.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         lambda.c
+         leaky_bucket.c
+     1>h:\研究生\rec thresh jm18.6\jm\lencod\inc\contributors.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         lencod.c
+     1>h:\研究生\rec thresh jm18.6\jm\lencod\inc\contributors.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>h:\研究生\rec thresh jm18.6\jm\lencod\inc\contributors.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         list_reorder.c
+     1>h:\研究生\rec thresh jm18.6\jm\lencod\inc\contributors.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         lln_mc_prediction.c
+         loopFilter.c
+         loop_filter_mbaff.c
+         loop_filter_normal.c
+         macroblock.c
+     1>h:\研究生\rec thresh jm18.6\jm\lencod\inc\contributors.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         macroblock_P444.c
+     1>h:\研究生\rec thresh jm18.6\jm\lencod\inc\contributors.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         mbuffer.c
+         mb_access.c
+         mc_prediction.c
+     1>h:\研究生\rec thresh jm18.6\jm\lencod\inc\contributors.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         mc_prediction_otf.c
+     1>h:\研究生\rec thresh jm18.6\jm\lencod\inc\contributors.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         正在生成代码...
+         正在编译...
+         md_common.c
+         md_distortion.c
+         md_high.c
+         md_highfast.c
+         md_highloss.c
+         md_high_updated.c
+         md_low.c
+         me_distortion.c
+     1>h:\研究生\rec thresh jm18.6\jm\lencod\inc\contributors.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         me_distortion_otf.c
+     1>h:\研究生\rec thresh jm18.6\jm\lencod\inc\contributors.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         me_epzs.c
+     1>h:\研究生\rec thresh jm18.6\jm\lencod\inc\contributors.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         me_epzs_common.c
+     1>h:\研究生\rec thresh jm18.6\jm\lencod\inc\contributors.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         me_epzs_int.c
+     1>h:\研究生\rec thresh jm18.6\jm\lencod\inc\contributors.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         me_epzs_sub.c
+     1>h:\研究生\rec thresh jm18.6\jm\lencod\inc\contributors.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         me_fullfast.c
+     1>h:\研究生\rec thresh jm18.6\jm\lencod\inc\contributors.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         me_fullfast_otf.c
+     1>h:\研究生\rec thresh jm18.6\jm\lencod\inc\contributors.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         me_fullsearch.c
+     1>h:\研究生\rec thresh jm18.6\jm\lencod\inc\contributors.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         me_hme.c
+     1>h:\研究生\rec thresh jm18.6\jm\lencod\inc\contributors.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         me_umhex.c
+         me_umhexsmp.c
+         mmco.c
+     1>h:\研究生\rec thresh jm18.6\jm\lencod\inc\contributors.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>h:\研究生\rec thresh jm18.6\jm\lencod\inc\contributors.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         正在生成代码...
+         正在编译...
+         mode_decision.c
+         mode_decision_P8x8.c
+         mv_direct.c
+     1>h:\研究生\rec thresh jm18.6\jm\lencod\inc\contributors.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         mv_search.c
+     1>h:\研究生\rec thresh jm18.6\jm\lencod\inc\contributors.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         nal.c
+     1>h:\研究生\rec thresh jm18.6\jm\lencod\inc\contributors.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         nalu.c
+         output.c
+     1>h:\研究生\rec thresh jm18.6\jm\lencod\inc\contributors.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         parset.c
+     1>h:\研究生\rec thresh jm18.6\jm\lencod\inc\contributors.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         pred_struct.c
+         quant4x4.c
+     1>h:\研究生\rec thresh jm18.6\jm\lencod\inc\contributors.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         quant4x4_2step.c
+     1>h:\研究生\rec thresh jm18.6\jm\lencod\inc\contributors.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         quant4x4_around.c
+     1>h:\研究生\rec thresh jm18.6\jm\lencod\inc\contributors.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         quant4x4_normal.c
+     1>h:\研究生\rec thresh jm18.6\jm\lencod\inc\contributors.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         quant4x4_trellis.c
+     1>h:\研究生\rec thresh jm18.6\jm\lencod\inc\contributors.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         quant8x8.c
+     1>h:\研究生\rec thresh jm18.6\jm\lencod\inc\contributors.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         quant8x8_around.c
+     1>h:\研究生\rec thresh jm18.6\jm\lencod\inc\contributors.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         quant8x8_normal.c
+     1>h:\研究生\rec thresh jm18.6\jm\lencod\inc\contributors.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         quant8x8_trellis.c
+     1>h:\研究生\rec thresh jm18.6\jm\lencod\inc\contributors.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         quantChroma.c
+     1>h:\研究生\rec thresh jm18.6\jm\lencod\inc\contributors.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         quantChroma_2step.c
+     1>h:\研究生\rec thresh jm18.6\jm\lencod\inc\contributors.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         正在生成代码...
+         正在编译...
+         quantChroma_around.c
+     1>h:\研究生\rec thresh jm18.6\jm\lencod\inc\contributors.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         quantChroma_normal.c
+     1>h:\研究生\rec thresh jm18.6\jm\lencod\inc\contributors.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         quantChroma_trellis.c
+     1>h:\研究生\rec thresh jm18.6\jm\lencod\inc\contributors.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         q_around.c
+         q_matrix.c
+         q_offsets.c
+         ratectl.c
+         rc_quadratic.c
+         rdopt.c
+         rdopt_coding_state.c
+         rdoq.c
+     1>h:\研究生\rec thresh jm18.6\jm\lencod\inc\contributors.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         rdoq_cabac.c
+     1>h:\研究生\rec thresh jm18.6\jm\lencod\inc\contributors.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         rdoq_cavlc.c
+     1>h:\研究生\rec thresh jm18.6\jm\lencod\inc\contributors.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         rdpicdecision.c
+         rd_intra_jm.c
+         rd_intra_jm444.c
+         rd_intra_jm_low.c
+         report.c
+     1>h:\研究生\rec thresh jm18.6\jm\lencod\inc\contributors.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>h:\研究生\rec thresh jm18.6\jm\lencod\inc\contributors.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         rtp.c
+         sei.c
+         正在生成代码...
+         正在编译...
+         slice.c
+     1>h:\研究生\rec thresh jm18.6\jm\lencod\inc\contributors.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         symbol.c
+         transform8x8.c
+         transform8x8_H444.c
+         vlc.c
+     1>h:\研究生\rec thresh jm18.6\jm\lencod\inc\contributors.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         weighted_prediction.c
+     1>h:\研究生\rec thresh jm18.6\jm\lencod\inc\contributors.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         wp_lms.c
+     1>h:\研究生\rec thresh jm18.6\jm\lencod\inc\contributors.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         wp_mciter.c
+     1>h:\研究生\rec thresh jm18.6\jm\lencod\inc\contributors.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         wp_mcprec.c
+     1>h:\研究生\rec thresh jm18.6\jm\lencod\inc\contributors.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         wp_periodic.c
+     1>h:\研究生\rec thresh jm18.6\jm\lencod\inc\contributors.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         wp_random.c
+     1>h:\研究生\rec thresh jm18.6\jm\lencod\inc\contributors.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         正在生成代码...
+       ManifestResourceCompile:
+         c:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo".\lencod/Debug_Win32_vc10\lencod.exe.embed.manifest.res" .\lencod/Debug_Win32_vc10\lencod_manifest.rc 
+       Link:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\bin\lencod.exe" /INCREMENTAL /NOLOGO Ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:".\lencod/Debug_Win32_vc10\lencod.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:".\lencod/Debug_Win32_vc9/lencod.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE:NO /IMPLIB:".\bin\lencod.lib" /MACHINE:X86 .\lencod/Debug_Win32_vc10\lencod.exe.embed.manifest.res
+         .\lencod/Debug_Win32_vc9/blk_prediction.obj
+         .\lencod/Debug_Win32_vc9/config_common.obj
+         .\lencod/Debug_Win32_vc9/img_io.obj
+         .\lencod/Debug_Win32_vc9/img_process.obj
+         .\lencod/Debug_Win32_vc9/input.obj
+         .\lencod/Debug_Win32_vc9/io_raw.obj
+         .\lencod/Debug_Win32_vc9/io_tiff.obj
+         .\lencod/Debug_Win32_vc9/mbuffer_common.obj
+         .\lencod/Debug_Win32_vc9/memalloc.obj
+         .\lencod/Debug_Win32_vc9/mv_prediction.obj
+         .\lencod/Debug_Win32_vc9/nalucommon.obj
+         .\lencod/Debug_Win32_vc9/parsetcommon.obj
+         .\lencod/Debug_Win32_vc9/resize.obj
+         .\lencod/Debug_Win32_vc9/transform.obj
+         .\lencod/Debug_Win32_vc9/win32.obj
+         .\lencod/Debug_Win32_vc9/annexb.obj
+         .\lencod/Debug_Win32_vc9/biariencode.obj
+         .\lencod/Debug_Win32_vc9/block.obj
+         .\lencod/Debug_Win32_vc9/cabac.obj
+         .\lencod/Debug_Win32_vc9/cconv_yuv2rgb.obj
+         .\lencod/Debug_Win32_vc9/configfile.obj
+         .\lencod/Debug_Win32_vc9/conformance.obj
+         .\lencod/Debug_Win32_vc9/context_ini.obj
+         .\lencod/Debug_Win32_vc9/errdo.obj
+         .\lencod/Debug_Win32_vc9/errdo_dist_mhyp.obj
+         .\lencod/Debug_Win32_vc9/explicit_gop.obj
+         .\lencod/Debug_Win32_vc9/explicit_seq.obj
+         .\lencod/Debug_Win32_vc9/filehandle.obj
+         .\lencod/Debug_Win32_vc9/fmo.obj
+         .\lencod/Debug_Win32_vc9/get_block_otf.obj
+         .\lencod/Debug_Win32_vc9/header.obj
+         .\lencod/Debug_Win32_vc9/hme_distortion.obj
+         .\lencod/Debug_Win32_vc9/hme_luma.obj
+         .\lencod/Debug_Win32_vc9/image.obj
+         .\lencod/Debug_Win32_vc9/image_mp.obj
+         .\lencod/Debug_Win32_vc9/img_chroma.obj
+         .\lencod/Debug_Win32_vc9/img_distortion.obj
+         .\lencod/Debug_Win32_vc9/img_dist_ms_ssim.obj
+         .\lencod/Debug_Win32_vc9/img_dist_snr.obj
+         .\lencod/Debug_Win32_vc9/img_dist_ssim.obj
+         .\lencod/Debug_Win32_vc9/img_luma.obj
+         .\lencod/Debug_Win32_vc9/intra16x16.obj
+         .\lencod/Debug_Win32_vc9/intra4x4.obj
+         .\lencod/Debug_Win32_vc9/intra8x8.obj
+         .\lencod/Debug_Win32_vc9/intrarefresh.obj
+         .\lencod/Debug_Win32_vc9/intra_chroma.obj
+         .\lencod/Debug_Win32_vc9/lambda.obj
+         .\lencod/Debug_Win32_vc9/leaky_bucket.obj
+         .\lencod/Debug_Win32_vc9/lencod.obj
+         .\lencod/Debug_Win32_vc9/list_reorder.obj
+         .\lencod/Debug_Win32_vc9/lln_mc_prediction.obj
+         .\lencod/Debug_Win32_vc9/loopFilter.obj
+         .\lencod/Debug_Win32_vc9/loop_filter_mbaff.obj
+         .\lencod/Debug_Win32_vc9/loop_filter_normal.obj
+         .\lencod/Debug_Win32_vc9/macroblock.obj
+         .\lencod/Debug_Win32_vc9/macroblock_P444.obj
+         .\lencod/Debug_Win32_vc9/mbuffer.obj
+         .\lencod/Debug_Win32_vc9/mb_access.obj
+         .\lencod/Debug_Win32_vc9/mc_prediction.obj
+         .\lencod/Debug_Win32_vc9/mc_prediction_otf.obj
+         .\lencod/Debug_Win32_vc9/md_common.obj
+         .\lencod/Debug_Win32_vc9/md_distortion.obj
+         .\lencod/Debug_Win32_vc9/md_high.obj
+         .\lencod/Debug_Win32_vc9/md_highfast.obj
+         .\lencod/Debug_Win32_vc9/md_highloss.obj
+         .\lencod/Debug_Win32_vc9/md_high_updated.obj
+         .\lencod/Debug_Win32_vc9/md_low.obj
+         .\lencod/Debug_Win32_vc9/me_distortion.obj
+         .\lencod/Debug_Win32_vc9/me_distortion_otf.obj
+         .\lencod/Debug_Win32_vc9/me_epzs.obj
+         .\lencod/Debug_Win32_vc9/me_epzs_common.obj
+         .\lencod/Debug_Win32_vc9/me_epzs_int.obj
+         .\lencod/Debug_Win32_vc9/me_epzs_sub.obj
+         .\lencod/Debug_Win32_vc9/me_fullfast.obj
+         .\lencod/Debug_Win32_vc9/me_fullfast_otf.obj
+         .\lencod/Debug_Win32_vc9/me_fullsearch.obj
+         .\lencod/Debug_Win32_vc9/me_hme.obj
+         .\lencod/Debug_Win32_vc9/me_umhex.obj
+         .\lencod/Debug_Win32_vc9/me_umhexsmp.obj
+         .\lencod/Debug_Win32_vc9/mmco.obj
+         .\lencod/Debug_Win32_vc9/mode_decision.obj
+         .\lencod/Debug_Win32_vc9/mode_decision_P8x8.obj
+         .\lencod/Debug_Win32_vc9/mv_direct.obj
+         .\lencod/Debug_Win32_vc9/mv_search.obj
+         .\lencod/Debug_Win32_vc9/nal.obj
+         .\lencod/Debug_Win32_vc9/nalu.obj
+         .\lencod/Debug_Win32_vc9/output.obj
+         .\lencod/Debug_Win32_vc9/parset.obj
+         .\lencod/Debug_Win32_vc9/pred_struct.obj
+         .\lencod/Debug_Win32_vc9/quant4x4.obj
+         .\lencod/Debug_Win32_vc9/quant4x4_2step.obj
+         .\lencod/Debug_Win32_vc9/quant4x4_around.obj
+         .\lencod/Debug_Win32_vc9/quant4x4_normal.obj
+         .\lencod/Debug_Win32_vc9/quant4x4_trellis.obj
+         .\lencod/Debug_Win32_vc9/quant8x8.obj
+         .\lencod/Debug_Win32_vc9/quant8x8_around.obj
+         .\lencod/Debug_Win32_vc9/quant8x8_normal.obj
+         .\lencod/Debug_Win32_vc9/quant8x8_trellis.obj
+         .\lencod/Debug_Win32_vc9/quantChroma.obj
+         .\lencod/Debug_Win32_vc9/quantChroma_2step.obj
+         .\lencod/Debug_Win32_vc9/quantChroma_around.obj
+         .\lencod/Debug_Win32_vc9/quantChroma_normal.obj
+         .\lencod/Debug_Win32_vc9/quantChroma_trellis.obj
+         .\lencod/Debug_Win32_vc9/q_around.obj
+         .\lencod/Debug_Win32_vc9/q_matrix.obj
+         .\lencod/Debug_Win32_vc9/q_offsets.obj
+         .\lencod/Debug_Win32_vc9/ratectl.obj
+         .\lencod/Debug_Win32_vc9/rc_quadratic.obj
+         .\lencod/Debug_Win32_vc9/rdopt.obj
+         .\lencod/Debug_Win32_vc9/rdopt_coding_state.obj
+         .\lencod/Debug_Win32_vc9/rdoq.obj
+         .\lencod/Debug_Win32_vc9/rdoq_cabac.obj
+         .\lencod/Debug_Win32_vc9/rdoq_cavlc.obj
+         .\lencod/Debug_Win32_vc9/rdpicdecision.obj
+         .\lencod/Debug_Win32_vc9/rd_intra_jm.obj
+         .\lencod/Debug_Win32_vc9/rd_intra_jm444.obj
+         .\lencod/Debug_Win32_vc9/rd_intra_jm_low.obj
+         .\lencod/Debug_Win32_vc9/report.obj
+         .\lencod/Debug_Win32_vc9/rtp.obj
+         .\lencod/Debug_Win32_vc9/sei.obj
+         .\lencod/Debug_Win32_vc9/slice.obj
+         .\lencod/Debug_Win32_vc9/symbol.obj
+         .\lencod/Debug_Win32_vc9/transform8x8.obj
+         .\lencod/Debug_Win32_vc9/transform8x8_H444.obj
+         .\lencod/Debug_Win32_vc9/vlc.obj
+         .\lencod/Debug_Win32_vc9/weighted_prediction.obj
+         .\lencod/Debug_Win32_vc9/wp_lms.obj
+         .\lencod/Debug_Win32_vc9/wp_mciter.obj
+         .\lencod/Debug_Win32_vc9/wp_mcprec.obj
+         .\lencod/Debug_Win32_vc9/wp_periodic.obj
+         .\lencod/Debug_Win32_vc9/wp_random.obj
+       Manifest:
+         正在删除文件“.\lencod/Debug_Win32_vc10\lencod.exe.embed.manifest”。
+         c:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:".\lencod/Debug_Win32_vc10\lencod.exe.embed.manifest" /manifest .\lencod/Debug_Win32_vc10\lencod.exe.intermediate.manifest
+         c:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo".\lencod/Debug_Win32_vc10\lencod.exe.embed.manifest.res" .\lencod/Debug_Win32_vc10\lencod_manifest.rc 
+       LinkEmbedManifest:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\bin\lencod.exe" /INCREMENTAL /NOLOGO Ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:".\lencod/Debug_Win32_vc10\lencod.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:".\lencod/Debug_Win32_vc9/lencod.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE:NO /IMPLIB:".\bin\lencod.lib" /MACHINE:X86 .\lencod/Debug_Win32_vc10\lencod.exe.embed.manifest.res
+         .\lencod/Debug_Win32_vc9/blk_prediction.obj
+         .\lencod/Debug_Win32_vc9/config_common.obj
+         .\lencod/Debug_Win32_vc9/img_io.obj
+         .\lencod/Debug_Win32_vc9/img_process.obj
+         .\lencod/Debug_Win32_vc9/input.obj
+         .\lencod/Debug_Win32_vc9/io_raw.obj
+         .\lencod/Debug_Win32_vc9/io_tiff.obj
+         .\lencod/Debug_Win32_vc9/mbuffer_common.obj
+         .\lencod/Debug_Win32_vc9/memalloc.obj
+         .\lencod/Debug_Win32_vc9/mv_prediction.obj
+         .\lencod/Debug_Win32_vc9/nalucommon.obj
+         .\lencod/Debug_Win32_vc9/parsetcommon.obj
+         .\lencod/Debug_Win32_vc9/resize.obj
+         .\lencod/Debug_Win32_vc9/transform.obj
+         .\lencod/Debug_Win32_vc9/win32.obj
+         .\lencod/Debug_Win32_vc9/annexb.obj
+         .\lencod/Debug_Win32_vc9/biariencode.obj
+         .\lencod/Debug_Win32_vc9/block.obj
+         .\lencod/Debug_Win32_vc9/cabac.obj
+         .\lencod/Debug_Win32_vc9/cconv_yuv2rgb.obj
+         .\lencod/Debug_Win32_vc9/configfile.obj
+         .\lencod/Debug_Win32_vc9/conformance.obj
+         .\lencod/Debug_Win32_vc9/context_ini.obj
+         .\lencod/Debug_Win32_vc9/errdo.obj
+         .\lencod/Debug_Win32_vc9/errdo_dist_mhyp.obj
+         .\lencod/Debug_Win32_vc9/explicit_gop.obj
+         .\lencod/Debug_Win32_vc9/explicit_seq.obj
+         .\lencod/Debug_Win32_vc9/filehandle.obj
+         .\lencod/Debug_Win32_vc9/fmo.obj
+         .\lencod/Debug_Win32_vc9/get_block_otf.obj
+         .\lencod/Debug_Win32_vc9/header.obj
+         .\lencod/Debug_Win32_vc9/hme_distortion.obj
+         .\lencod/Debug_Win32_vc9/hme_luma.obj
+         .\lencod/Debug_Win32_vc9/image.obj
+         .\lencod/Debug_Win32_vc9/image_mp.obj
+         .\lencod/Debug_Win32_vc9/img_chroma.obj
+         .\lencod/Debug_Win32_vc9/img_distortion.obj
+         .\lencod/Debug_Win32_vc9/img_dist_ms_ssim.obj
+         .\lencod/Debug_Win32_vc9/img_dist_snr.obj
+         .\lencod/Debug_Win32_vc9/img_dist_ssim.obj
+         .\lencod/Debug_Win32_vc9/img_luma.obj
+         .\lencod/Debug_Win32_vc9/intra16x16.obj
+         .\lencod/Debug_Win32_vc9/intra4x4.obj
+         .\lencod/Debug_Win32_vc9/intra8x8.obj
+         .\lencod/Debug_Win32_vc9/intrarefresh.obj
+         .\lencod/Debug_Win32_vc9/intra_chroma.obj
+         .\lencod/Debug_Win32_vc9/lambda.obj
+         .\lencod/Debug_Win32_vc9/leaky_bucket.obj
+         .\lencod/Debug_Win32_vc9/lencod.obj
+         .\lencod/Debug_Win32_vc9/list_reorder.obj
+         .\lencod/Debug_Win32_vc9/lln_mc_prediction.obj
+         .\lencod/Debug_Win32_vc9/loopFilter.obj
+         .\lencod/Debug_Win32_vc9/loop_filter_mbaff.obj
+         .\lencod/Debug_Win32_vc9/loop_filter_normal.obj
+         .\lencod/Debug_Win32_vc9/macroblock.obj
+         .\lencod/Debug_Win32_vc9/macroblock_P444.obj
+         .\lencod/Debug_Win32_vc9/mbuffer.obj
+         .\lencod/Debug_Win32_vc9/mb_access.obj
+         .\lencod/Debug_Win32_vc9/mc_prediction.obj
+         .\lencod/Debug_Win32_vc9/mc_prediction_otf.obj
+         .\lencod/Debug_Win32_vc9/md_common.obj
+         .\lencod/Debug_Win32_vc9/md_distortion.obj
+         .\lencod/Debug_Win32_vc9/md_high.obj
+         .\lencod/Debug_Win32_vc9/md_highfast.obj
+         .\lencod/Debug_Win32_vc9/md_highloss.obj
+         .\lencod/Debug_Win32_vc9/md_high_updated.obj
+         .\lencod/Debug_Win32_vc9/md_low.obj
+         .\lencod/Debug_Win32_vc9/me_distortion.obj
+         .\lencod/Debug_Win32_vc9/me_distortion_otf.obj
+         .\lencod/Debug_Win32_vc9/me_epzs.obj
+         .\lencod/Debug_Win32_vc9/me_epzs_common.obj
+         .\lencod/Debug_Win32_vc9/me_epzs_int.obj
+         .\lencod/Debug_Win32_vc9/me_epzs_sub.obj
+         .\lencod/Debug_Win32_vc9/me_fullfast.obj
+         .\lencod/Debug_Win32_vc9/me_fullfast_otf.obj
+         .\lencod/Debug_Win32_vc9/me_fullsearch.obj
+         .\lencod/Debug_Win32_vc9/me_hme.obj
+         .\lencod/Debug_Win32_vc9/me_umhex.obj
+         .\lencod/Debug_Win32_vc9/me_umhexsmp.obj
+         .\lencod/Debug_Win32_vc9/mmco.obj
+         .\lencod/Debug_Win32_vc9/mode_decision.obj
+         .\lencod/Debug_Win32_vc9/mode_decision_P8x8.obj
+         .\lencod/Debug_Win32_vc9/mv_direct.obj
+         .\lencod/Debug_Win32_vc9/mv_search.obj
+         .\lencod/Debug_Win32_vc9/nal.obj
+         .\lencod/Debug_Win32_vc9/nalu.obj
+         .\lencod/Debug_Win32_vc9/output.obj
+         .\lencod/Debug_Win32_vc9/parset.obj
+         .\lencod/Debug_Win32_vc9/pred_struct.obj
+         .\lencod/Debug_Win32_vc9/quant4x4.obj
+         .\lencod/Debug_Win32_vc9/quant4x4_2step.obj
+         .\lencod/Debug_Win32_vc9/quant4x4_around.obj
+         .\lencod/Debug_Win32_vc9/quant4x4_normal.obj
+         .\lencod/Debug_Win32_vc9/quant4x4_trellis.obj
+         .\lencod/Debug_Win32_vc9/quant8x8.obj
+         .\lencod/Debug_Win32_vc9/quant8x8_around.obj
+         .\lencod/Debug_Win32_vc9/quant8x8_normal.obj
+         .\lencod/Debug_Win32_vc9/quant8x8_trellis.obj
+         .\lencod/Debug_Win32_vc9/quantChroma.obj
+         .\lencod/Debug_Win32_vc9/quantChroma_2step.obj
+         .\lencod/Debug_Win32_vc9/quantChroma_around.obj
+         .\lencod/Debug_Win32_vc9/quantChroma_normal.obj
+         .\lencod/Debug_Win32_vc9/quantChroma_trellis.obj
+         .\lencod/Debug_Win32_vc9/q_around.obj
+         .\lencod/Debug_Win32_vc9/q_matrix.obj
+         .\lencod/Debug_Win32_vc9/q_offsets.obj
+         .\lencod/Debug_Win32_vc9/ratectl.obj
+         .\lencod/Debug_Win32_vc9/rc_quadratic.obj
+         .\lencod/Debug_Win32_vc9/rdopt.obj
+         .\lencod/Debug_Win32_vc9/rdopt_coding_state.obj
+         .\lencod/Debug_Win32_vc9/rdoq.obj
+         .\lencod/Debug_Win32_vc9/rdoq_cabac.obj
+         .\lencod/Debug_Win32_vc9/rdoq_cavlc.obj
+         .\lencod/Debug_Win32_vc9/rdpicdecision.obj
+         .\lencod/Debug_Win32_vc9/rd_intra_jm.obj
+         .\lencod/Debug_Win32_vc9/rd_intra_jm444.obj
+         .\lencod/Debug_Win32_vc9/rd_intra_jm_low.obj
+         .\lencod/Debug_Win32_vc9/report.obj
+         .\lencod/Debug_Win32_vc9/rtp.obj
+         .\lencod/Debug_Win32_vc9/sei.obj
+         .\lencod/Debug_Win32_vc9/slice.obj
+         .\lencod/Debug_Win32_vc9/symbol.obj
+         .\lencod/Debug_Win32_vc9/transform8x8.obj
+         .\lencod/Debug_Win32_vc9/transform8x8_H444.obj
+         .\lencod/Debug_Win32_vc9/vlc.obj
+         .\lencod/Debug_Win32_vc9/weighted_prediction.obj
+         .\lencod/Debug_Win32_vc9/wp_lms.obj
+         .\lencod/Debug_Win32_vc9/wp_mciter.obj
+         .\lencod/Debug_Win32_vc9/wp_mcprec.obj
+         .\lencod/Debug_Win32_vc9/wp_periodic.obj
+         .\lencod/Debug_Win32_vc9/wp_random.obj
+         lencod_vc10.vcxproj -> H:\研究生\rec thresh jm18.6\JM\.\bin\lencod.exe
+       BscMake:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\bscmake.exe /nologo /o".\bin\lencod.bsc" .\lencod/Debug_Win32_vc10\blk_prediction.sbr .\lencod/Debug_Win32_vc10\config_common.sbr .\lencod/Debug_Win32_vc10\img_io.sbr .\lencod/Debug_Win32_vc10\img_process.sbr .\lencod/Debug_Win32_vc10\input.sbr .\lencod/Debug_Win32_vc10\io_raw.sbr .\lencod/Debug_Win32_vc10\io_tiff.sbr .\lencod/Debug_Win32_vc10\mbuffer_common.sbr .\lencod/Debug_Win32_vc10\memalloc.sbr .\lencod/Debug_Win32_vc10\mv_prediction.sbr .\lencod/Debug_Win32_vc10\nalucommon.sbr .\lencod/Debug_Win32_vc10\parsetcommon.sbr .\lencod/Debug_Win32_vc10\resize.sbr .\lencod/Debug_Win32_vc10\transform.sbr .\lencod/Debug_Win32_vc10\win32.sbr .\lencod/Debug_Win32_vc10\annexb.sbr .\lencod/Debug_Win32_vc10\biariencode.sbr .\lencod/Debug_Win32_vc10\block.sbr .\lencod/Debug_Win32_vc10\cabac.sbr .\lencod/Debug_Win32_vc10\cconv_yuv2rgb.sbr .\lencod/Debug_Win32_vc10\configfile.sbr .\lencod/Debug_Win32_vc10\conformance.sbr .\lencod/Debug_Win32_vc10\context_ini.sbr .\lencod/Debug_Win32_vc10\errdo.sbr .\lencod/Debug_Win32_vc10\errdo_dist_mhyp.sbr .\lencod/Debug_Win32_vc10\explicit_gop.sbr .\lencod/Debug_Win32_vc10\explicit_seq.sbr .\lencod/Debug_Win32_vc10\filehandle.sbr .\lencod/Debug_Win32_vc10\fmo.sbr .\lencod/Debug_Win32_vc10\get_block_otf.sbr .\lencod/Debug_Win32_vc10\header.sbr .\lencod/Debug_Win32_vc10\hme_distortion.sbr .\lencod/Debug_Win32_vc10\hme_luma.sbr .\lencod/Debug_Win32_vc10\image.sbr .\lencod/Debug_Win32_vc10\image_mp.sbr .\lencod/Debug_Win32_vc10\img_chroma.sbr .\lencod/Debug_Win32_vc10\img_distortion.sbr .\lencod/Debug_Win32_vc10\img_dist_ms_ssim.sbr .\lencod/Debug_Win32_vc10\img_dist_snr.sbr .\lencod/Debug_Win32_vc10\img_dist_ssim.sbr .\lencod/Debug_Win32_vc10\img_luma.sbr .\lencod/Debug_Win32_vc10\intra16x16.sbr .\lencod/Debug_Win32_vc10\intra4x4.sbr .\lencod/Debug_Win32_vc10\intra8x8.sbr .\lencod/Debug_Win32_vc10\intrarefresh.sbr .\lencod/Debug_Win32_vc10\intra_chroma.sbr .\lencod/Debug_Win32_vc10\lambda.sbr .\lencod/Debug_Win32_vc10\leaky_bucket.sbr .\lencod/Debug_Win32_vc10\lencod.sbr .\lencod/Debug_Win32_vc10\list_reorder.sbr .\lencod/Debug_Win32_vc10\lln_mc_prediction.sbr .\lencod/Debug_Win32_vc10\loopFilter.sbr .\lencod/Debug_Win32_vc10\loop_filter_mbaff.sbr .\lencod/Debug_Win32_vc10\loop_filter_normal.sbr .\lencod/Debug_Win32_vc10\macroblock.sbr .\lencod/Debug_Win32_vc10\macroblock_P444.sbr .\lencod/Debug_Win32_vc10\mbuffer.sbr .\lencod/Debug_Win32_vc10\mb_access.sbr .\lencod/Debug_Win32_vc10\mc_prediction.sbr .\lencod/Debug_Win32_vc10\mc_prediction_otf.sbr .\lencod/Debug_Win32_vc10\md_common.sbr .\lencod/Debug_Win32_vc10\md_distortion.sbr .\lencod/Debug_Win32_vc10\md_high.sbr .\lencod/Debug_Win32_vc10\md_highfast.sbr .\lencod/Debug_Win32_vc10\md_highloss.sbr .\lencod/Debug_Win32_vc10\md_high_updated.sbr .\lencod/Debug_Win32_vc10\md_low.sbr .\lencod/Debug_Win32_vc10\me_distortion.sbr .\lencod/Debug_Win32_vc10\me_distortion_otf.sbr .\lencod/Debug_Win32_vc10\me_epzs.sbr .\lencod/Debug_Win32_vc10\me_epzs_common.sbr .\lencod/Debug_Win32_vc10\me_epzs_int.sbr .\lencod/Debug_Win32_vc10\me_epzs_sub.sbr .\lencod/Debug_Win32_vc10\me_fullfast.sbr .\lencod/Debug_Win32_vc10\me_fullfast_otf.sbr .\lencod/Debug_Win32_vc10\me_fullsearch.sbr .\lencod/Debug_Win32_vc10\me_hme.sbr .\lencod/Debug_Win32_vc10\me_umhex.sbr .\lencod/Debug_Win32_vc10\me_umhexsmp.sbr .\lencod/Debug_Win32_vc10\mmco.sbr .\lencod/Debug_Win32_vc10\mode_decision.sbr .\lencod/Debug_Win32_vc10\mode_decision_P8x8.sbr .\lencod/Debug_Win32_vc10\mv_direct.sbr .\lencod/Debug_Win32_vc10\mv_search.sbr .\lencod/Debug_Win32_vc10\nal.sbr .\lencod/Debug_Win32_vc10\nalu.sbr .\lencod/Debug_Win32_vc10\output.sbr .\lencod/Debug_Win32_vc10\parset.sbr .\lencod/Debug_Win32_vc10\pred_struct.sbr .\lencod/Debug_Win32_vc10\quant4x4.sbr .\lencod/Debug_Win32_vc10\quant4x4_2step.sbr .\lencod/Debug_Win32_vc10\quant4x4_around.sbr .\lencod/Debug_Win32_vc10\quant4x4_normal.sbr .\lencod/Debug_Win32_vc10\quant4x4_trellis.sbr .\lencod/Debug_Win32_vc10\quant8x8.sbr .\lencod/Debug_Win32_vc10\quant8x8_around.sbr .\lencod/Debug_Win32_vc10\quant8x8_normal.sbr .\lencod/Debug_Win32_vc10\quant8x8_trellis.sbr .\lencod/Debug_Win32_vc10\quantChroma.sbr .\lencod/Debug_Win32_vc10\quantChroma_2step.sbr .\lencod/Debug_Win32_vc10\quantChroma_around.sbr .\lencod/Debug_Win32_vc10\quantChroma_normal.sbr .\lencod/Debug_Win32_vc10\quantChroma_trellis.sbr .\lencod/Debug_Win32_vc10\q_around.sbr .\lencod/Debug_Win32_vc10\q_matrix.sbr .\lencod/Debug_Win32_vc10\q_offsets.sbr .\lencod/Debug_Win32_vc10\ratectl.sbr .\lencod/Debug_Win32_vc10\rc_quadratic.sbr .\lencod/Debug_Win32_vc10\rdopt.sbr .\lencod/Debug_Win32_vc10\rdopt_coding_state.sbr .\lencod/Debug_Win32_vc10\rdoq.sbr .\lencod/Debug_Win32_vc10\rdoq_cabac.sbr .\lencod/Debug_Win32_vc10\rdoq_cavlc.sbr .\lencod/Debug_Win32_vc10\rdpicdecision.sbr .\lencod/Debug_Win32_vc10\rd_intra_jm.sbr .\lencod/Debug_Win32_vc10\rd_intra_jm444.sbr .\lencod/Debug_Win32_vc10\rd_intra_jm_low.sbr .\lencod/Debug_Win32_vc10\report.sbr .\lencod/Debug_Win32_vc10\rtp.sbr .\lencod/Debug_Win32_vc10\sei.sbr .\lencod/Debug_Win32_vc10\slice.sbr .\lencod/Debug_Win32_vc10\symbol.sbr .\lencod/Debug_Win32_vc10\transform8x8.sbr .\lencod/Debug_Win32_vc10\transform8x8_H444.sbr .\lencod/Debug_Win32_vc10\vlc.sbr .\lencod/Debug_Win32_vc10\weighted_prediction.sbr .\lencod/Debug_Win32_vc10\wp_lms.sbr .\lencod/Debug_Win32_vc10\wp_mciter.sbr .\lencod/Debug_Win32_vc10\wp_mcprec.sbr .\lencod/Debug_Win32_vc10\wp_periodic.sbr .\lencod/Debug_Win32_vc10\wp_random.sbr
+       FinalizeBuildStatus:
+         正在删除文件“.\lencod/Debug_Win32_vc10\lencod.unsuccessfulbuild”。
+         正在对“.\lencod/Debug_Win32_vc10\lencod.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“H:\研究生\rec thresh jm18.6\JM\lencod_vc10.vcxproj”(rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:02:55.75

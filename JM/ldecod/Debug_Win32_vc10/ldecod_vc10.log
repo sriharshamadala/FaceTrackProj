@@ -1,0 +1,96 @@
+﻿生成启动时间为 2014/8/12 10:31:25。
+     1>项目“H:\研究生\mvlist rec thresh jm18.6\JM\ldecod_vc10.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“.\ldecod\Debug_Win32_vc10\ldecod.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Ildecod/inc /Ilcommon/inc /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _CRT_SECURE_NO_DEPRECATE /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /openmp- /Fo".\ldecod/Debug_Win32_vc10/" /Fd".\ldecod/Debug_Win32_vc10/vc100.pdb" /FR".\ldecod\Debug_Win32_vc10\\" /Gd /TC /analyze- /errorReport:prompt ldecod\src\mbuffer.c /MP 
+         mbuffer.c
+     1>h:\研究生\mvlist rec thresh jm18.6\jm\ldecod\src\mbuffer.c(488): warning C4101: “a”: 未引用的局部变量
+       ManifestResourceCompile:
+         所有输出均为最新。
+       Link:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\bin\ldecod.exe" /INCREMENTAL /NOLOGO Ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:".\ldecod\Debug_Win32_vc10\ldecod.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:".\ldecod/Debug_Win32_vc10/ldecod.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE:NO /IMPLIB:".\bin\ldecod.lib" /MACHINE:X86 .\ldecod\Debug_Win32_vc10\ldecod.exe.embed.manifest.res
+         .\ldecod/Debug_Win32_vc10/blk_prediction.obj
+         .\ldecod/Debug_Win32_vc10/config_common.obj
+         .\ldecod/Debug_Win32_vc10/img_io.obj
+         .\ldecod/Debug_Win32_vc10/img_process.obj
+         .\ldecod/Debug_Win32_vc10/input.obj
+         .\ldecod/Debug_Win32_vc10/io_raw.obj
+         .\ldecod/Debug_Win32_vc10/io_tiff.obj
+         .\ldecod/Debug_Win32_vc10/mbuffer_common.obj
+         .\ldecod/Debug_Win32_vc10/memalloc.obj
+         .\ldecod/Debug_Win32_vc10/mv_prediction.obj
+         .\ldecod/Debug_Win32_vc10/nalucommon.obj
+         .\ldecod/Debug_Win32_vc10/parsetcommon.obj
+         .\ldecod/Debug_Win32_vc10/transform.obj
+         .\ldecod/Debug_Win32_vc10/win32.obj
+         .\ldecod/Debug_Win32_vc10/annexb.obj
+         .\ldecod/Debug_Win32_vc10/biaridecod.obj
+         .\ldecod/Debug_Win32_vc10/block.obj
+         .\ldecod/Debug_Win32_vc10/cabac.obj
+         .\ldecod/Debug_Win32_vc10/configfile.obj
+         .\ldecod/Debug_Win32_vc10/context_ini.obj
+         .\ldecod/Debug_Win32_vc10/decoder_test.obj
+         .\ldecod/Debug_Win32_vc10/dec_statistics.obj
+         .\ldecod/Debug_Win32_vc10/erc_api.obj
+         .\ldecod/Debug_Win32_vc10/erc_do_i.obj
+         .\ldecod/Debug_Win32_vc10/erc_do_p.obj
+         .\ldecod/Debug_Win32_vc10/errorconcealment.obj
+         .\ldecod/Debug_Win32_vc10/filehandle.obj
+         .\ldecod/Debug_Win32_vc10/fmo.obj
+         .\ldecod/Debug_Win32_vc10/header.obj
+         .\ldecod/Debug_Win32_vc10/image.obj
+         .\ldecod/Debug_Win32_vc10/intra16x16_pred.obj
+         .\ldecod/Debug_Win32_vc10/intra16x16_pred_mbaff.obj
+         .\ldecod/Debug_Win32_vc10/intra16x16_pred_normal.obj
+         .\ldecod/Debug_Win32_vc10/intra4x4_pred.obj
+         .\ldecod/Debug_Win32_vc10/intra4x4_pred_mbaff.obj
+         .\ldecod/Debug_Win32_vc10/intra4x4_pred_normal.obj
+         .\ldecod/Debug_Win32_vc10/intra8x8_pred.obj
+         .\ldecod/Debug_Win32_vc10/intra8x8_pred_mbaff.obj
+         .\ldecod/Debug_Win32_vc10/intra8x8_pred_normal.obj
+         .\ldecod/Debug_Win32_vc10/intra_chroma_pred.obj
+         .\ldecod/Debug_Win32_vc10/intra_chroma_pred_mbaff.obj
+         .\ldecod/Debug_Win32_vc10/intra_pred_common.obj
+         .\ldecod/Debug_Win32_vc10/ldecod.obj
+         .\ldecod/Debug_Win32_vc10/leaky_bucket.obj
+         .\ldecod/Debug_Win32_vc10/loopFilter.obj
+         .\ldecod/Debug_Win32_vc10/loop_filter_mbaff.obj
+         .\ldecod/Debug_Win32_vc10/loop_filter_normal.obj
+         .\ldecod/Debug_Win32_vc10/macroblock.obj
+         .\ldecod/Debug_Win32_vc10/mbuffer.obj
+         .\ldecod/Debug_Win32_vc10/mbuffer_mvc.obj
+         .\ldecod/Debug_Win32_vc10/mb_access.obj
+         .\ldecod/Debug_Win32_vc10/mb_prediction.obj
+         .\ldecod/Debug_Win32_vc10/mb_read.obj
+         .\ldecod/Debug_Win32_vc10/mc_direct.obj
+         .\ldecod/Debug_Win32_vc10/mc_prediction.obj
+         .\ldecod/Debug_Win32_vc10/nal.obj
+         .\ldecod/Debug_Win32_vc10/nalu.obj
+         .\ldecod/Debug_Win32_vc10/output.obj
+         .\ldecod/Debug_Win32_vc10/parset.obj
+         .\ldecod/Debug_Win32_vc10/quant.obj
+         .\ldecod/Debug_Win32_vc10/read_comp_cabac.obj
+         .\ldecod/Debug_Win32_vc10/read_comp_cavlc.obj
+         .\ldecod/Debug_Win32_vc10/rtp.obj
+         .\ldecod/Debug_Win32_vc10/sei.obj
+         .\ldecod/Debug_Win32_vc10/transform8x8.obj
+         .\ldecod/Debug_Win32_vc10/vlc.obj
+       Manifest:
+         c:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:".\ldecod\Debug_Win32_vc10\ldecod.exe.embed.manifest" /manifest .\ldecod\Debug_Win32_vc10\ldecod.exe.intermediate.manifest
+         所有输出均为最新。
+       LinkEmbedManifest:
+         所有输出均为最新。
+         ldecod_vc10.vcxproj -> H:\研究生\mvlist rec thresh jm18.6\JM\.\bin\ldecod.exe
+       BscMake:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\bscmake.exe /nologo /o".\bin\ldecod.bsc" .\ldecod\Debug_Win32_vc10\blk_prediction.sbr .\ldecod\Debug_Win32_vc10\config_common.sbr .\ldecod\Debug_Win32_vc10\img_io.sbr .\ldecod\Debug_Win32_vc10\img_process.sbr .\ldecod\Debug_Win32_vc10\input.sbr .\ldecod\Debug_Win32_vc10\io_raw.sbr .\ldecod\Debug_Win32_vc10\io_tiff.sbr .\ldecod\Debug_Win32_vc10\mbuffer_common.sbr .\ldecod\Debug_Win32_vc10\memalloc.sbr .\ldecod\Debug_Win32_vc10\mv_prediction.sbr .\ldecod\Debug_Win32_vc10\nalucommon.sbr .\ldecod\Debug_Win32_vc10\parsetcommon.sbr .\ldecod\Debug_Win32_vc10\transform.sbr .\ldecod\Debug_Win32_vc10\win32.sbr .\ldecod\Debug_Win32_vc10\annexb.sbr .\ldecod\Debug_Win32_vc10\biaridecod.sbr .\ldecod\Debug_Win32_vc10\block.sbr .\ldecod\Debug_Win32_vc10\cabac.sbr .\ldecod\Debug_Win32_vc10\configfile.sbr .\ldecod\Debug_Win32_vc10\context_ini.sbr .\ldecod\Debug_Win32_vc10\decoder_test.sbr .\ldecod\Debug_Win32_vc10\dec_statistics.sbr .\ldecod\Debug_Win32_vc10\erc_api.sbr .\ldecod\Debug_Win32_vc10\erc_do_i.sbr .\ldecod\Debug_Win32_vc10\erc_do_p.sbr .\ldecod\Debug_Win32_vc10\errorconcealment.sbr .\ldecod\Debug_Win32_vc10\filehandle.sbr .\ldecod\Debug_Win32_vc10\fmo.sbr .\ldecod\Debug_Win32_vc10\header.sbr .\ldecod\Debug_Win32_vc10\image.sbr .\ldecod\Debug_Win32_vc10\intra16x16_pred.sbr .\ldecod\Debug_Win32_vc10\intra16x16_pred_mbaff.sbr .\ldecod\Debug_Win32_vc10\intra16x16_pred_normal.sbr .\ldecod\Debug_Win32_vc10\intra4x4_pred.sbr .\ldecod\Debug_Win32_vc10\intra4x4_pred_mbaff.sbr .\ldecod\Debug_Win32_vc10\intra4x4_pred_normal.sbr .\ldecod\Debug_Win32_vc10\intra8x8_pred.sbr .\ldecod\Debug_Win32_vc10\intra8x8_pred_mbaff.sbr .\ldecod\Debug_Win32_vc10\intra8x8_pred_normal.sbr .\ldecod\Debug_Win32_vc10\intra_chroma_pred.sbr .\ldecod\Debug_Win32_vc10\intra_chroma_pred_mbaff.sbr .\ldecod\Debug_Win32_vc10\intra_pred_common.sbr .\ldecod\Debug_Win32_vc10\ldecod.sbr .\ldecod\Debug_Win32_vc10\leaky_bucket.sbr .\ldecod\Debug_Win32_vc10\loopFilter.sbr .\ldecod\Debug_Win32_vc10\loop_filter_mbaff.sbr .\ldecod\Debug_Win32_vc10\loop_filter_normal.sbr .\ldecod\Debug_Win32_vc10\macroblock.sbr .\ldecod\Debug_Win32_vc10\mbuffer.sbr .\ldecod\Debug_Win32_vc10\mbuffer_mvc.sbr .\ldecod\Debug_Win32_vc10\mb_access.sbr .\ldecod\Debug_Win32_vc10\mb_prediction.sbr .\ldecod\Debug_Win32_vc10\mb_read.sbr .\ldecod\Debug_Win32_vc10\mc_direct.sbr .\ldecod\Debug_Win32_vc10\mc_prediction.sbr .\ldecod\Debug_Win32_vc10\nal.sbr .\ldecod\Debug_Win32_vc10\nalu.sbr .\ldecod\Debug_Win32_vc10\output.sbr .\ldecod\Debug_Win32_vc10\parset.sbr .\ldecod\Debug_Win32_vc10\quant.sbr .\ldecod\Debug_Win32_vc10\read_comp_cabac.sbr .\ldecod\Debug_Win32_vc10\read_comp_cavlc.sbr .\ldecod\Debug_Win32_vc10\rtp.sbr .\ldecod\Debug_Win32_vc10\sei.sbr .\ldecod\Debug_Win32_vc10\transform8x8.sbr .\ldecod\Debug_Win32_vc10\vlc.sbr
+       CopyFilesToOutputDirectory:
+         正在将文件从“.\ldecod\Debug_Win32_vc10\ldecod.pdb”复制到“.\bin\ldecod.pdb”。
+       FinalizeBuildStatus:
+         正在删除文件“.\ldecod\Debug_Win32_vc10\ldecod.unsuccessfulbuild”。
+         正在对“.\ldecod\Debug_Win32_vc10\ldecod.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“H:\研究生\mvlist rec thresh jm18.6\JM\ldecod_vc10.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:10.67
