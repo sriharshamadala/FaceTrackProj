@@ -1,0 +1,12 @@
+JM/ldecod/obj/*.o
+JM/lencod/obj/*.o
+JM/rtpdump/obj/*.o
+JM/rtp_loss/obj/*.o
+JM/bin/*.exe
+JM/bin/*.yuv
+JM/ldecod/dependencies
+JM/lencod/dependencies
+JM/rtpdump/dependencies
+JM/rtp_loss/dependencies
+JM/output/*
+JM/input/*
