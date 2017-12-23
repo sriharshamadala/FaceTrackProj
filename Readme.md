@@ -1,3 +1,6 @@
+## Overview
+Autonomous control of Pan-Tilt-Zoom (PTZ) camera is an interesting field of research with numerous applications such as recording lectures, seminars, live coverage of sports, video surveillance, etc. The work done in this project is preliminary in that regard. This work targets a more simplistic scenario of recording a live lecture, where the subject has constrained motion. A PTZ camera records the subject live and the h.264 encoder generates the encoded bit stream in real-time. Traditional facial recognition algorithms can be used to track the subject but they fail in some scenarios such as the subject facing away from the camera or a poster in the background. The objective of this project is to assist traditional Facial recognition algorithms to improve their accuracy by simply using the motion vectors available in the bit stream. We proposed an algorithm to track multiple subjects with motion in each frame.
+
 ## Install YUV viewer
 I installed the [pyuv-player](https://github.com/gbaruffa/pyuv-player). While there are several choices, I found this one easiest to install. 
 
