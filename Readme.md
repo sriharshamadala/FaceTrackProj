@@ -8,6 +8,9 @@ make install
 ```
 
 ## demo
+
+![before](demo/hall_demo_before.gif) ![after](demo/hall_demo_after.gif)
+
 * Download your choice of [raw yuv sequence](http://trace.eas.asu.edu/yuv/)
 * Note the resolution (352x288 px), color space (yuv) and subsampling (4:2:0). This information is necessary for both the encoder and viewing the raw file.
 * View the input file with pyuv-player. You may need to set the format (`File->Format`) based on the above information to view the sequency correctly.
@@ -35,7 +38,6 @@ cd JM/bin
 ./ldecod.exe
 ```
 * The output file contains the same input video sequence but in each frame, a box is drawn to identify the motion of the subject.
-![before](demo/hall_demo_before.gif) ![after](demo/hall_demo_after.gif)
 
 ## Documentation
 Refer to the report for a detailed description of the project. Refer to the presentation to see the changes made to the open source JM decoder for our implementation.
