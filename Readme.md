@@ -38,6 +38,11 @@ cd JM/bin
 ./ldecod.exe
 ```
 * The output file contains the same input video sequence but in each frame, a box is drawn to identify the motion of the subject.
+* If you have a h264 encoded bit stream, you can skip the encoder step and run the decoder directly. Use ffmpeg when necessary to convert files to and from .264 format.
+```bash
+ffmpeg -f h264 -i test.264 demo.mp4
+ffmpeg -i demo.mp4 -vcodec libx264 test.264
+```
 
 ## Documentation
 Refer to the report for a detailed description of the project. Refer to the presentation to see the changes made to the open source JM decoder for our implementation.
@@ -48,6 +53,3 @@ Refer to the report for a detailed description of the project. Refer to the pres
 
 ## Credits
 Project by: Yan Meng, Sriharsha Madala.
-
-3. Executing the source code is same as before. Use lencod.exe to encode any .yuv file. Make sure to configure the encoder using  encoder.cfg
-4. If you have a h264 encoded bit stream, run ldecod.exe. configuration is done using decoder.cfg.
